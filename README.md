@@ -23,13 +23,22 @@
  <table>
   <tr>
     <th> Topic </th>
-    <th> Results</th>
+    <th> Syntax</th>
     <th> Analysis </th>
   </tr>
   <tr>
-    <td>???????</td>
-    <td>???? </td>
-    <td> ????/</td>
+    <td>Type of data</td>
+    <td>str() </td>
+    <td> It is one of the first things to do because depending on the type of variable the analysis differs. In this case, the most of them is numerical and the target is categorical</td>
+    <tr>
+      <tr>
+    <td>Summary</td>
+    <td>summary()</td>
+    <td>Gives an overview of all features</td>
+    <tr>
+     <td>Mean</td>
+    <td>mean()</td>
+    <td>is a measure of central location. With the value of the average obtained we can identify what is the representative value of each variable </td>
     <tr>
   </tr>
 </table>

@@ -20,6 +20,10 @@ str(ds)
 #5 - Summary 
 summary(ds)
 
-#6 -Median
+#6 -Mean
 m1 <- mean(ds$age)
 print(m1)
+
+#7-Median
+m2 <- median(ds$age)
+print(m2)

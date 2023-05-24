@@ -27,3 +27,23 @@ print(m1)
 #7-Median
 m2 <- median(ds$age)
 print(m2)
+
+#8- Quantile
+q1 <- quantile(ds$age,c(0.25,0.5,0.75,0.90))
+print(q1)
+
+#9 - Range
+r1 <- range(ds$age)
+print(r1)
+
+#10 - IQR
+i1 <- IQR(ds$age)
+print(i1)
+
+#11 - Variancy
+v1 <- var(ds$age)
+print(v1)
+
+#12 - Standart Desviation 
+s1 <- sd(ds$age)
+print(s1)

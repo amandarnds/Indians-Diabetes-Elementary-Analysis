@@ -28,6 +28,8 @@ print(m1)
 m2 <- median(ds$age)
 print(m2)
 
+hist(ds$age)
+
 #8- Quantile
 q1 <- quantile(ds$age,c(0.25,0.5,0.75,0.90))
 print(q1)
@@ -47,3 +49,13 @@ print(v1)
 #12 - Standart Desviation 
 s1 <- sd(ds$age)
 print(s1)
+
+#13 - Covariancy
+cov(ds$age,ds$glucose)
+
+#14 - Corelation
+cor(ds$age,ds$glucose)
+correlation  <- cor(ds[,1:8])
+library(corrplot)
+corrplot(correlation, method = "circle")
+

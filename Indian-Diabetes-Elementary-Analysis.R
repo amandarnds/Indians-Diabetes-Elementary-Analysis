@@ -59,3 +59,21 @@ correlation  <- cor(ds[,1:8])
 library(corrplot)
 corrplot(correlation, method = "circle")
 
+#15 - Skewness 
+install.packages("e1071")
+library(e1071)
+
+#Age
+skewness(ds$age)
+hist(ds$age)
+
+#Pressure
+skewness(ds$pressure)
+hist(ds$pressure)
+
+#16- Kurtosis
+kurtosis(ds$age) 
+hist(ds$age)
+
+kurtosis(ds$pressure)
+hist(ds$pressure)

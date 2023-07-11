@@ -46,24 +46,33 @@
     <tr>
     <td>quantile</td>
     <td>quantile()</td>
-    <td>it a measure that divides a distribution of data into equal-sized intervals. The data show that 75% of results are next to the mean, showing data concentrated in the left/td>
+    <td>it a measure that divides a distribution of data into equal-sized intervals. The data show that 75% of results are next to the mean, showing data concentrated in the left</td>
     <tr>
     <td>range</td>
     <td>range()</td>
-    <td>it shows the highest and lowest values. The range found is wide/td>
+    <td>it shows the highest and lowest values. The range found is wide</td>
     <tr>
     <td>IQR</td>
     <td>IQR()</td>
-    <td>Interquartile Range is calculated by finding the difference between the upper quartile (Q3) and the lower quartile (Q1). The value found is not small, so we have variability in the data./td>
+    <td>Interquartile Range is calculated by finding the difference between the upper quartile (Q3) and the lower quartile (Q1). The value found is not small, so we have variability in the data.</td>
     <tr>
     <td>Variancy</td>
     <td>var()</td>
-    <td>It is a measure of dispersion, as the value found was high, it is likely that we have a considerable variabilty in the data./td>
+    <td>It is a measure of dispersion, as the value found was high, it is likely that we have a considerable variabilty in the data.</td>
     <tr>
     <td>Standart Desviation</td>
     <td>sd()</td>
-    <td>It is a measure of dispersion but in the same scale of original data. The result found indicates that we have variability./td>
+    <td>It is a measure of dispersion but in the same scale of original data. The result found indicates that we have variability.</td>
     <tr>
+    <td>Covariance</td>
+    <td>cov()
+    </td>
+    <td>It measures the relationship and degree of dependency between two random variables. It indicates how changes in one variable correspond to changes in another variable.The result found indicates a straight relation between the age and glucose variable. </td>
+    <tr>
+     <td>Correlation</td>
+    <td>cor()
+    </td>
+    <td>It refers to the relationship or association between two variables. The positive correlation found suggests that there is a weak to moderate positive relationship between age and glucose levels.</td>
   </tr>
   
 </table>

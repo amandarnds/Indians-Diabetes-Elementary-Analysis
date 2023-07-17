@@ -74,5 +74,9 @@
     </td>
     <td>It refers to the relationship or association between two variables. The positive correlation found suggests that there is a weak to moderate positive relationship between age and glucose levels.</td>
   </tr>
-  
+  <td>Skewness</td>
+    <td>skewness()
+    </td>
+    <td>Skewness is a statistical measure that describes the asymmetry of a probability distribution. It quantifies the degree to which a distribution deviates from being symmetric. A positive skewness, as the value found for "Age variable", indicates that the distribution has a longer tail on the right side, while a negative skewness, as the value found for "Pressure variable",  indicates a longer tail on the left side. Skewness helps in understanding the shape and nature of data, providing insights into the presence of outliers and the overall balance of the distribution.</td>
+  </tr>
 </table>

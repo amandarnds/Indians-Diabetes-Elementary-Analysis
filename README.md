@@ -79,4 +79,9 @@
     </td>
     <td>Skewness is a statistical measure that describes the asymmetry of a probability distribution. It quantifies the degree to which a distribution deviates from being symmetric. A positive skewness, as the value found for "Age variable", indicates that the distribution has a longer tail on the right side, while a negative skewness, as the value found for "Pressure variable",  indicates a longer tail on the left side. Skewness helps in understanding the shape and nature of data, providing insights into the presence of outliers and the overall balance of the distribution.</td>
   </tr>
+    <td>Kurtosis</td>
+    <td>kurtosis()
+    </td>
+    <td>Kurtosis is a statistical measure that describes the shape of a probability distribution, specifically how peaked or flat it is compared to the normal distribution. High kurtosis indicates a more peaked distribution with heavier tails, while low kurtosis suggests a flatter distribution with lighter tails.The kurtosis value for the variable "age" is 0.6217269. A kurtosis close to zero indicates that the distribution has a peak similar to that of the normal distribution, that is, the data have a shape closer to a bell curve. This suggests that the distribution of the variable "age" has a relatively balanced shape.The kurtosis value for the pressure variable is 5.11751. A kurtosis greater than zero indicates a distribution with heavier tails and a more pronounced peak than the normal distribution. This suggests that the pressure variable may have more extreme values and be more sensitive to outliers compared to a normal distribution.</td>
+  </tr>
 </table>

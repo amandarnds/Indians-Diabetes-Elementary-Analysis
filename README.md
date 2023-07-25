@@ -86,5 +86,5 @@
   </tr>
   </table>
   
-  <h2>5.  Conclusion </h2>
+  <h2>6. Conclusion </h2>
   <p> It was possible to do a statistical elementary analysis using languague R. We could see the main code to do it. </p>

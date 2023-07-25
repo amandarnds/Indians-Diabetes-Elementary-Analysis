@@ -84,4 +84,7 @@
     </td>
     <td>Kurtosis is a statistical measure that describes the shape of a probability distribution, specifically how peaked or flat it is compared to the normal distribution. High kurtosis indicates a more peaked distribution with heavier tails, while low kurtosis suggests a flatter distribution with lighter tails.The kurtosis value for the variable "age" is 0.6217269. A kurtosis close to zero indicates that the distribution has a peak similar to that of the normal distribution, that is, the data have a shape closer to a bell curve. This suggests that the distribution of the variable "age" has a relatively balanced shape.The kurtosis value for the pressure variable is 5.11751. A kurtosis greater than zero indicates a distribution with heavier tails and a more pronounced peak than the normal distribution. This suggests that the pressure variable may have more extreme values and be more sensitive to outliers compared to a normal distribution.</td>
   </tr>
-</table>
+  </table>
+  
+  <h2>5.  Conclusion </h2>
+  <p> It was possible to do a statistical elementary analysis using languague R. We could see the main code to do it. </p>
